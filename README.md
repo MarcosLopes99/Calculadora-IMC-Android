@@ -3,10 +3,10 @@
 ## Imagens:
 
 ### Tela Inicial
-![calculadora-imc](https://github.com/MarcosLopes99/Calculadora-IMC-Android/blob/master/git_images/calculadora.png)
+<img src="https://github.com/MarcosLopes99/Calculadora-IMC-Android/blob/master/git_images/calculadora.png" width="250">
 
 ### Tela Resultado
-![calculadora-imc](https://github.com/MarcosLopes99/Calculadora-IMC-Android/blob/master/git_images/resultado.png)
+<img src="https://github.com/MarcosLopes99/Calculadora-IMC-Android/blob/master/git_images/resultado.png" width="250">
 
 ### Tela "Sobre"
-![calculadora-imc](https://github.com/MarcosLopes99/Calculadora-IMC-Android/blob/master/git_images/sobre.png)
+<img src="https://github.com/MarcosLopes99/Calculadora-IMC-Android/blob/master/git_images/sobre.png" width="250">
