@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tu IMC</string>
+    <string name="bmi_calculator">Calculadora de IMC</string>
+    <string name="hint_your_weight">Tu peso (kg)</string>
+    <string name="hint_your_height">Tu altura (m)</string>
+    <string name="calculate">Calcular</string>
+    <string name="about_creator_redirect"><u>Sobre el creador</u></string>
+    <string name="field_empty_invalid">Campo vacío o inválido</string>
+    <string name="underweight">Bajo peso</string>
+    <string name="normal_weight">Normal</string>
+    <string name="overweight">Exceso de peso</string>
+    <string name="obesity">Obesidad</string>
+    <string name="recalculate">Recalcular</string>
+    <string name="your_bmi">Tu IMC es: %1$s</string>
+    <string name="text_about_creator">Mi nombre es Marcos Lopes da Silva Junior. Tengo 21 años. Soy estudiante de Sistemas de Información en la FIAP, actualmente cursando el 5º semestre del curso.\nEstoy interesado en el desarrollo de back-end, pero también me gusta aprender sobre front-end. También me gusta aprender sobre tecnologías emergentes cuando tengo tiempo.\nEsta aplicación es un proyecto para mi evaluación de desarrollo móvil, juegos e Internet de las cosas.\n\n30 de abril de 2021</string>
+</resources>

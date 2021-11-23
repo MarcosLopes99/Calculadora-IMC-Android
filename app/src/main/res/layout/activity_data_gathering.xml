@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".DataGatheringActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivWeightLogo"
+            android:layout_width="@dimen/width_weight_icon"
+            android:layout_height="@dimen/height_weight_icon"
+            android:src="@drawable/weighing_machine_icon"
+            app:layout_constraintBottom_toTopOf="@id/tvCalculatorTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.00" />
+
+        <TextView
+            android:id="@+id/tvCalculatorTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bmi_calculator"
+            android:textSize="@dimen/big_text"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivWeightLogo"
+            app:layout_constraintBottom_toTopOf="@id/tilInsertWeight"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilInsertWeight"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="@dimen/small_form_width"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            android:layout_marginTop="@dimen/margin_top_data_screen"
+            android:layout_marginEnd="@dimen/margin_default"
+            android:hint="@string/hint_your_weight"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/tilInsertHeight"
+            app:layout_constraintTop_toBottomOf="@+id/tvCalculatorTitle">
+
+            <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tieInsertWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilInsertHeight"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="@dimen/small_form_width"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            android:layout_marginTop="@dimen/margin_data_screen_form"
+            android:layout_marginEnd="@dimen/margin_default"
+            android:hint="@string/hint_your_height"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tilInsertWeight"
+            app:layout_constraintBottom_toTopOf="@id/btCalculate">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tieInsertHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btCalculate"
+            android:backgroundTint="@color/light_blue"
+            android:layout_width="@dimen/bt_calculate_width"
+            android:layout_height="@dimen/bt_calculate_height"
+            android:layout_marginTop="@dimen/margin_data_screen_form"
+            android:text="@string/calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tilInsertHeight" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

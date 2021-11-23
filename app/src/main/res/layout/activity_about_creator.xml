@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".DataGatheringActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AboutCreatorActivity">
+
+        <ImageView
+            android:id="@+id/ivCreatorImage"
+            android:layout_width="@dimen/creator_img_width"
+            android:layout_height="@dimen/creator_img_height"
+            app:layout_constraintVertical_bias="0.05"
+            android:layout_marginTop="@dimen/margin_top_iv_creator"
+            android:src="@drawable/creator"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/tvAboutCreatorText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAboutCreatorText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintWidth_percent="0.80"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_tv_about_creator"
+            android:layout_marginTop="@dimen/margin_default"
+            app:layout_constraintTop_toBottomOf="@id/ivCreatorImage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/text_about_creator"/>
+
+        <ImageButton
+            android:id="@+id/btBack"
+            android:layout_width="@dimen/back_button_width"
+            android:layout_height="@dimen/back_button_height"
+            android:layout_marginTop="@dimen/back_button_margin"
+            android:layout_marginBottom="@dimen/back_button_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvAboutCreatorText"
+            android:background="@drawable/back_icon"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

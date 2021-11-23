@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Your BMI</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="hint_your_weight">Your weight (kg)</string>
+    <string name="hint_your_height">Your height (m)</string>
+    <string name="calculate">Calculate</string>
+    <string name="about_creator_redirect"><u>About the creator</u></string>
+    <string name="field_empty_invalid">Empty or invalid field</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal_weight">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obesity">Obesity</string>
+    <string name="recalculate">Recalculate</string>
+    <string name="your_bmi">Your BMI is: %1$s</string>
+    <string name="text_about_creator">My name is Marcos Lopes da Silva Junior. I\'m 21 years old. Student of Information Systems at FIAP, currently in the 5th semester of the course.\nI\'m interested in back-end development, but I also have interest in front-end development. I also like to learn about emerging technologies when I have time.\nThis application is a project for my evaluation of Mobile Development, Games and Internet of Things.\n\nApril 30th, 2021</string>
+</resources>
