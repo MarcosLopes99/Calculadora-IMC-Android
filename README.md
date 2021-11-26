@@ -1,4 +1,5 @@
 # Calculadora-IMC-Android
+Aplicativo Android de uma calculadora de IMC.
 
 ## Imagens:
 
